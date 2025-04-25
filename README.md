@@ -65,19 +65,19 @@ In general, most styles on the page are based off the definitions of variables i
 
 ```SCSS
 // Define base and accent colors
-$base-color: #3498db;
+$base-color:rgb(11, 136, 0);
 $base-color-hover: darken($base-color, 10%);
 
 // Define background colors
 $background: #fff;
-$background-alt: #f2f2f5;
+$background-alt:rgb(0, 0, 0);
 
 // Define border colors
 $border: #dcd9d9;
 
 // Define text colors
-$heading: #374054;
-$text: #74808a;
+$heading:rgb(16, 155, 215);
+$text:rgb(189, 198, 205);
 ```
 
 If you wish to change the general colour scheme of the page for example, simply change the value of `$base-color`.
